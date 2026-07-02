@@ -42,7 +42,7 @@ output "PublicSubnet" {
 	description = "Subnet resource associated with the public subnet"
 	value = {
 		"id" : azurerm_subnet.PublicSubnet.id
-		"name" : azurerm_subnet.PublicSubnet.id
+		"name" : azurerm_subnet.PublicSubnet.name
 	}
 }
 
